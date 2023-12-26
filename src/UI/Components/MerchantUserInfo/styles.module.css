@@ -1,0 +1,60 @@
+.wrapper {
+  position: relative;
+}
+
+.userAvatarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  font-weight: 400;
+  width: 127px;
+}
+
+.userAvatar {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: var(--small_indent);
+  border-radius: 99999px;
+}
+
+.userName {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 138.52%;
+  letter-spacing: 0.035em;
+  color: #413068;
+  text-transform: lowercase;
+}
+
+.userInfo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 742px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .userInfo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 542px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .userInfo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+}

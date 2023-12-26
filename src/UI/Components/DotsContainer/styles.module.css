@@ -1,0 +1,9 @@
+.dotsBlock {
+  border: 1px solid #413068;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

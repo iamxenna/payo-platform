@@ -1,0 +1,284 @@
+.wrapper {
+  margin: 5.2% 4.3% 0 8.5%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: var(--smedium_indent);
+}
+
+.backBtn {
+  cursor: pointer;
+  width: 8px;
+  height: 20px;
+  margin-bottom: var(--smedium_indent);
+}
+
+.updateContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.showBoard {
+  background: #F9F6FF;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CACACC;
+  width: 46%;
+  height: 583px;
+  box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: row;
+  color: #413068;
+  font-family: 'Inter', serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+}
+
+.image {
+  background-image: var(--bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  height: 60%;
+}
+
+.updateInfo {
+  padding: 22px 38.4px;
+}
+
+.updateBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.035em;
+  color: #2C2936;
+  margin-bottom: 7px;
+}
+
+.group {
+  font-family: 'Inter', serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #2C2936;
+  margin-bottom: 7px;
+}
+
+.description {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: 0.035em;
+  color: #787580;
+  margin-bottom: 25px;
+}
+
+.price {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #413068;
+}
+
+.shareContainer {
+  max-width: 137.12px;
+  height: 43.24px;
+  width: 100%;
+}
+
+.lastInfoBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.btn {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ml {
+  margin-left: 4px;
+}
+
+.fstUpdateBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: var(--ssmall_indent);
+}
+
+.nameInputContainer {
+  width: 67%;
+}
+
+.fileInputContainer {
+  width: 33%;
+}
+
+.selectContainer {
+  width: 65%;
+  height: 44px;
+  margin-bottom: 22px;
+}
+
+.commission {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #CACACC;
+}
+
+.priceStockContainer {
+  width: 100%;
+}
+
+.priceContainer,
+.stockContainer {
+  width: 31.5%;
+}
+
+.unlimitedCheckboxContainer {
+  display: flex;
+  flex-direction: row;
+  gap: var(--smallest_indent);
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: var(--black_payo);
+  margin-top: 10px;
+}
+
+.tagBlock {
+  display: flex;
+  flex-direction: row;
+  gap: var(--ssmall_indent);
+}
+
+.bd {
+  border-radius: 5px !important;
+}
+
+.cancelBtn {
+  background: #FF5A5A !important;
+}
+
+.btnBlock {
+  display: flex;
+  flex-direction: row;
+  gap: var(--bsmall-indent);
+}
+
+.saveContainer {
+  width: 101px;
+  height: 40px;
+}
+
+.cancelContainer {
+  width: 118px;
+  height: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    margin: 8% 4.3% 0 4.3%;
+  }
+
+  .showBoard {
+    height: 473px;
+    width: 72%;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.035em;
+    color: #100C1A;
+  }
+
+  .group {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.035em;
+    color: #413068;
+  }
+
+  .description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.035em;
+    color: #787580;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #413068;
+  }
+
+  .shareContainer {
+    width: 117px;
+    height: 35px;
+  }
+
+  .cancelContainer {
+    width: 94px;
+    height: 31px;
+  }
+
+  .saveContainer {
+    width: 79px;
+    height: 31px;
+  }
+
+  .content {
+    gap: 26px;
+  }
+
+  .btnBlock {
+    gap: 8px;
+  }
+
+  .btn {
+    font-weight: 500;
+    font-size: 11.3585px;
+    line-height: 138.52%;
+    letter-spacing: 0.035em;
+    color: #F9F6FF;
+  }
+}

@@ -1,0 +1,37 @@
+.wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.content {
+  width: 177px;
+  position: absolute;
+  top: calc(100% + 10px);
+  display: flex;
+}
+
+.container {
+  padding: 16px 27px;
+  background: #413068;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--ssmall_indent);
+}
+
+.sortItem {
+  font-family: 'Inter', serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.035em;
+  color: #F9F6FF;
+  cursor: pointer;
+}
+
+.itemContaier {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}

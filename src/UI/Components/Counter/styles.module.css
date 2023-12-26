@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #F9F6FF;
+  border-radius: 12px;
+  width: 85px;
+  height: 32px;
+}
+
+.minus,
+.plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28.4px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.amount {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2C2936;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 130px;
+    height: 51px;
+    border-radius: 20px;
+    background: #FFF;
+  }
+
+  .amount {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--black_payo);
+  }
+
+  .minus,
+  .plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 100%;
+    cursor: pointer;
+    scale: 1.5;
+  }
+}

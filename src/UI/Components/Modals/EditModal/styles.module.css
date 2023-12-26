@@ -1,0 +1,48 @@
+.content {
+  width: 100%;
+  background: #FFF;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.381);
+  padding: 0 15px;
+}
+
+.item {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(202, 202, 204);
+}
+
+.borderNone {
+  border: none;
+}
+
+.cancelBtn {
+  border-radius: 10px;
+  background: #FFF;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.035em;
+  color: var(--purple_payo);
+}
+
+.titleDecline {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.035em;
+  color: #FF5A5A;
+}

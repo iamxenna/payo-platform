@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: var(--smedium_indent);
+  margin-bottom: var(--smedium_indent);
+  margin-left: 60px;
+}
+
+.tabTitle {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 138.52%;
+  letter-spacing: 0.035em;
+  color: #CACACC;
+  cursor: pointer;
+}
+
+.active {
+  color: var(--purple_payo);
+}
+
+.activeUnderline {
+  width: 100%;
+  height: 1px;
+  background-color: #413068;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    margin: 0;
+  }
+
+  .active {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #413068;
+  }
+
+  .tabTitle {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tabTitle {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .tabTitle {
+    font-size: 24px;
+  }
+}

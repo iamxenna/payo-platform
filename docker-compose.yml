@@ -1,0 +1,26 @@
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-PAYO}
+      PGDATA: /data/postgres
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+  backend:
+    container_name: backend
+    build: ../payo-backend-main/.
+    ports:
+      - "7070:7070"
+    depends_on:
+      - postgres
+
+  frontend:
+    container_name: frontend
+    build: .
+    ports:
+      - "3000:3000"

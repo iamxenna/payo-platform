@@ -1,0 +1,216 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  z-index: 4;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  border-radius: 10px;
+  padding: 46px 28px;
+}
+
+.arrow {
+  position: absolute;
+  top: 3.3rem;
+  left: 23px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--purple_payo);
+}
+
+.servicesWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  margin-bottom: 40px;
+}
+
+.servicesWrapperReversed {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.servicesTitle {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.035em;
+  color: var(--black_payo);
+  font-family: "Inter", serif;
+}
+
+.elementsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrowWrapper {
+  margin: 14px 0 0 17px;
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+}
+
+.arrowWrapperReversed {
+  cursor: pointer;
+  rotate: 180deg;
+  width: 34px;
+  height: 34px;
+  margin: 14px 17px 0 0;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #EBEBEB;
+  padding: 7px 8px 7px 15px;
+  border: 1px solid #CACACC;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 570px;
+}
+
+.inputText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.035em;
+  color: var(--black_payo);
+  font-family: "Inter", serif;
+}
+
+.inputButton {
+  width: 101px;
+  height: 31px;
+}
+
+.buttonText {
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  letter-spacing: 0.035em !important;
+  color: #FFF;
+  font-family: "Inter", serif;
+}
+
+@media screen and (max-width: 500px) {
+  .icon {
+    scale: 0.8;
+  }
+
+  .inputButton {
+    width: 40px;
+    height: 31px;
+  }
+
+  .inputText {
+    font-size: 10px;
+  }
+
+  .buttonText {
+    font-size: 8px;
+  }
+
+  .servicesContainer {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .head {
+    margin-bottom: 20px;
+  }
+
+  .wrapper {
+    height: 300px;
+  }
+
+  .arrowWrapper {
+    margin: 14px 0 0 10px;
+  }
+
+  .arrowWrapperReversed {
+    margin: 14px 10px 0 0;
+  }
+
+  .elementsWrapper {
+    width: 50px;
+    gap: 0;
+  }
+
+  .servicesTitle {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .icon {
+    scale: 0.7;
+  }
+
+  .servicesContainer {
+    gap: 0;
+    margin-bottom: 10px;
+  }
+
+  .inputText {
+    font-size: 8px;
+  }
+
+  .servicesTitle {
+    font-size: 8px;
+  }
+
+  .elementsWrapper {
+    width: 50px;
+    gap: 0;
+  }
+
+  .arrowWrapper {
+    margin: 14px 0 0 5px;
+  }
+
+  .arrowWrapperReversed {
+    margin: 14px 5px 0 0;
+  }
+
+  .head {
+    margin-bottom: 10px;
+  }
+
+  .wrapper {
+    height: 280px;
+  }
+}

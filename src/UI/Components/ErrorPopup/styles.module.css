@@ -1,0 +1,39 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.popupContainer {
+  position: absolute;
+  display: flex;
+  top: -4rem;
+  left: 1rem;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF5A5A;
+  border-radius: 13px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.text {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FF5A5A;
+}
+
+.triangle {
+  display: block;
+  height: 14px;
+  width: 18px;
+  background-color: inherit;
+  border: inherit;
+  position: absolute;
+  bottom: -7px;
+  left: 1rem;
+  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+  transform: rotate(-38deg);
+}

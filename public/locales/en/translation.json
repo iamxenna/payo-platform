@@ -1,0 +1,137 @@
+{
+  "pageTitles": {
+    "index": "Welcome To Payo",
+    "showcase": "My Showcase",
+    "profile": "My Profile",
+    "profileUpdate": "Profile Update",
+    "card": "Card",
+    "cardCreate": "Card Create",
+    "cardUpdate": "Card Update",
+    "groupCreate": "Group Create",
+    "group": "Group",
+    "groupUpdate": "Group Update",
+    "notFound": "404 Not Found",
+    "notFoundShowcase": "Deleted Unit",
+    "dashboard": "My Dashboard",
+    "partnership": "Partnership"
+  },
+  "connect": "Connect",
+  "advantage": "Take advantage of single connect to the application for new and registered users with one of the following methods",
+  "connectEmail": "Connect via email",
+  "agree": "I agree to the",
+  "terms": "By connecting, you agree to the ",
+  "termsTitle": "Terms and Privacy",
+  "code": "Please enter the code sent to ",
+  "resend": "You can resend code after delay",
+  "seconds": "seconds",
+  "resendCode": "Resend new code",
+  "archived": "archived",
+  "dashboard": {
+    "title": "This is the Dashboard page",
+    "text": "Currently, there are no transactions to display. Check back here to keep track of your payments once you start making transactions"
+  },
+  "profile": {
+    "header": "Profile",
+    "editProfile": "Edit profile",
+    "logout": "Log out",
+    "binance": "Binance Smart Chain",
+    "ethereum": "Ethereum",
+    "polygon": "Polygon",
+    "disableUSDC": "If you disable USDC, payment via Visa/Mastercard",
+    "willBeUnavailable": "will also be unavailable"
+  },
+  "updateProfile": {
+    "accSettings": "Account settings",
+    "mainInfo": "Main info",
+    "crypto": "Choose cryptocurrencies",
+    "visaMastercard": "Visa/Mastercard",
+    "anyPayments": "Any payments received by Visa or Mastercard will automatically be converted to the USDC on Polygon.\n Please note that all fiat payments via Visa and Mastercard on this platform are processed by Wert. ",
+    "chooseCurrency": "Choose the cryptocurrency that will be available for your customers at the time of payment"
+  },
+  "updateCard": {
+    "nameTitle": "Name",
+    "namePlaceHolder": "Type a name",
+    "photoPlaceHolder": "Upload photo",
+    "descriptionTitle": "Description",
+    "descriptionPlaceHolder": "Type a description",
+    "selectTitle": "Group",
+    "priceTitle": "Price $",
+    "stockTitle": "In stock",
+    "unlimited": "Unlimited",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "createCard": {
+    "create": "Create"
+  },
+  "about": "About",
+  "sidebar": {
+    "showcase": "Showcase",
+    "dashboard": "Dashboard",
+    "partnership": "Partnership",
+    "profile": "Profile"
+  },
+  "helpMenu": {
+    "help": "Help & documentation",
+    "support": "Message support",
+    "terms": "Terms & privacy"
+  },
+  "errors": {
+    "checkboxLogin": "This field is required",
+    "checkEmail": "Email is invalid"
+  },
+  "notFound": {
+    "whoops": "Whoops!",
+    "back": "Back to home",
+    "checkUrl": "It is a 404 Error! Please check the URL.",
+    "notAccessible": "The page you are trying to reach is not accessible now.",
+    "contact": "Please contact the seller."
+  },
+  "modalOptions": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "archive": "Archive",
+    "unarchive": "Unarchive"
+  },
+  "cardInfo": {
+    "price": "Price",
+    "inStock": "In Stock",
+    "shareCard": "Share Card",
+    "crypto": "Pay via Crypto",
+    "mastercard": "Pay via Visa/Mastercard",
+    "pay": "Pay",
+    "wertInfo": "Wert - fiat provider may charge an additional fee at the time of payment",
+    "minimumAmount": "The minimum transaction amount is $5"
+  },
+  "share": {
+    "card": "Share Card",
+    "group": "Share Group"
+  },
+  "partnership": {
+    "title": "Become a Payo partner",
+    "textBody": "In the near future, we launch a partnership program. You will be able to refer businesses to accept cryptocurrency payments through PAYO and reduce your commission percentage from 1% to 0% forever.",
+    "btnText": "Learn More"
+  },
+  "support": {
+    "name": "Name",
+    "typeName": "Type a name",
+    "email": "Email",
+    "typeEmail": "Type an email",
+    "question": "Subjects",
+    "max": "Please describe your request. Max 500 symbols.",
+    "describe": "Describe your question",
+    "send": "Send а request"
+  },
+  "purchase": {
+    "headerSuccess": "Complete",
+    "headerError": "Failed",
+    "messageSuccess": "Your transaction is completed.",
+    "messageError": "Your transaction failed.",
+    "textSuccessFirstPart": "Thank you for using Payo! We will send you an",
+    "textSuccessSecondPart": " email with details of your transaction.",
+    "textErrorFirstPart": "Unfortunately your transaction failed, check",
+    "textErrorSecondPart": " your details and try again.",
+    "btnSuccess": "Close",
+    "btnError": "Try again"
+  }
+}

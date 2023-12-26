@@ -1,0 +1,17 @@
+.notification_error,
+.notification_success,
+.notification_warning {
+  color: var(--white_payo);
+}
+
+.notification_success {
+  background-color: #2A7B32;
+}
+
+.notification_warning {
+  background-color: var(--purple_payo);
+}
+
+.notification_error {
+  background-color: #FF5A5A;
+}

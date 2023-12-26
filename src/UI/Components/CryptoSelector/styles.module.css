@@ -1,0 +1,143 @@
+.wrapper {
+  width: 240px;
+  height: 300px;
+  background: #F9F6FF;
+  border-radius: 15px;
+  padding: var(--small_indent) 32px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.52%;
+  letter-spacing: 0.05em;
+  color: #2C2936;
+  margin-bottom: var(--bsmall-indent);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.elTitle {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.52%;
+  letter-spacing: 0.05em;
+  color: #2C2936;
+}
+
+.modalText {
+  text-align: center;
+}
+
+.unitContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.optionUnit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    background: #FFF;
+  }
+
+  .unitContainer {
+    gap: 12px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "el0 el0"
+      "el1 el2"
+      "el3 el4";
+  }
+
+  .el0 {
+    grid-area: el0;
+  }
+
+  .el1 {
+    grid-area: el1;
+  }
+
+  .el2 {
+    grid-area: el2;
+  }
+
+  .el3 {
+    grid-area: el3;
+  }
+
+  .el4 {
+    grid-area: el4;
+  }
+
+  .title {
+    text-align: start;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 138.52%;
+    letter-spacing: 0.05em;
+    color: #2C2936;
+  }
+
+  .optionUnit {
+    max-width: 190px;
+  }
+
+  .elTitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 138.52%;
+    letter-spacing: 0.05em;
+    color: #2C2936;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-areas:
+      "el0"
+      "el0"
+      "el1"
+      "el2"
+      "el3"
+      "el4";
+  }
+
+  .optionUnit {
+    max-width: 100%;
+  }
+
+  .el0 {
+    grid-area: el0;
+  }
+
+  .wrapper {
+    height: auto;
+  }
+
+  .title {
+    text-align: center;
+  }
+}

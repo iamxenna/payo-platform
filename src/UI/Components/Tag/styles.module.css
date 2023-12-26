@@ -1,0 +1,34 @@
+.container {
+  background: linear-gradient(89.86deg, #413068 -19.69%, #8F79BF 139.19%);
+  border-radius: 6px;
+  padding: var(--smallest_indent) 12px;
+  height: 25px;
+}
+
+.underscoredText {
+  text-transform: lowercase;
+}
+
+.text {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white_payo);
+  letter-spacing: 0.035em;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    height: 18px;
+    padding: 3px 8px;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.035em;
+    color: var(--white_payo);
+  }
+}

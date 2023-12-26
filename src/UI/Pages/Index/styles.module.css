@@ -1,0 +1,259 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--black_payo);
+  display: flex;
+}
+
+.container {
+  max-width: 467px;
+  max-height: 614px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  background: linear-gradient(209.35deg, rgba(255, 255, 255, 0.88) 40.2%, rgba(255, 255, 255, 0.61) 129.19%);
+  border-radius: 35px;
+}
+
+.content {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px var(--smedium_indent) 70px var(--smedium_indent);
+}
+
+.content h1 {
+  color: var(--black_payo);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: var(--small_indent);
+}
+
+.textDescription {
+  color: var(--black_payo);
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btnContainer {
+  height: auto;
+}
+
+.btn {
+  margin-bottom: var(--small_indent);
+}
+
+.btnInput {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  border-radius: 6px !important;
+}
+
+.checkboxContainer {
+  font-family: 'Inter', serif;
+  padding-top: var(--ssmall_indent);
+  text-align: center;
+}
+
+.terms {
+  color: #787580 !important;
+  cursor: pointer;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.additionalText {
+  position: absolute;
+  bottom: 2.8rem;
+  left: 3rem;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 15px !important;
+}
+
+.resend {
+  color: rgba(16, 12, 26, 0.33) !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: 0 auto;
+}
+
+.exitArrow {
+  position: absolute;
+  top: 5rem;
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.termsResend {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--purple_payo);
+}
+
+.error {
+  color: #FF5A5A !important;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #F9F6FF -12.36%, #CACACC 141.31%);
+    display: flex;
+  }
+
+  .secondary {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2C2936;
+    border: 1px solid #2C2936;
+    border-radius: 30px !important;
+    height: 70px;
+    background: #F9F6FF;
+    padding: 23px 35px !important;
+  }
+
+  .secondarySend {
+    margin: 60px auto 0 auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2C2936;
+    border: 1px solid #2C2936;
+    border-radius: 30px !important;
+    height: 70px;
+    background: #F9F6FF;
+    padding: 23px 35px !important;
+  }
+
+  .btn {
+    margin-bottom: 40px;
+    height: 70px;
+  }
+
+  .additionalText {
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+  }
+
+  .resend {
+    color: rgba(16, 12, 26, 0.33) !important;
+  }
+
+  .btnContainer {
+    position: relative;
+  }
+
+  .sendButton {
+    background: #413068;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: 50px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 0 auto;
+    cursor: pointer;
+  }
+
+  .sendButtonAbsolute {
+    position: absolute;
+    bottom: -5rem;
+    right: 0;
+    left: 0;
+    background: #413068;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: 50px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 0 auto;
+    cursor: pointer;
+  }
+
+  .sendButtonLabel {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 138.52%;
+    letter-spacing: 0.035em;
+    color: #F9F6FF;
+  }
+
+  .metamaskLogo {
+    scale: 1.3;
+  }
+
+  .terms {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #787580;
+  }
+
+  .checkboxContainer {
+    padding-top: 16px;
+  }
+
+  .textDescription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #787580;
+    margin-top: 16px;
+  }
+
+  .container {
+    max-width: 467px;
+    width: 100%;
+    height: 55%;
+    text-align: center;
+    margin: 24.1% 12.5% 0 12.5%;
+    background: none;
+    border-radius: 35px;
+  }
+
+  .exitArrowMobile {
+    position: absolute;
+    top: -4rem;
+    left: -1rem;
+    cursor: pointer;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+}

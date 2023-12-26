@@ -1,0 +1,58 @@
+@import url(./calendar.css);
+@import url(./fonts.css);
+@import url(./notification.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  background: linear-gradient(180deg, #F9F6FF -12.36%, #CACACC 141.31%);
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white_payo);
+}
+
+:root {
+  --purple_payo: #413068;
+  --light_purple_payo: #C7ADFF;
+  --black_payo: #100C1A;
+  --white_payo: #F9F6FF;
+  --bbigg_indent: 120px;
+  --big_indent: 80px;
+  --sbig_indent: 60px;
+  --medium_indent: 48px;
+  --smedium_indent: 32px;
+  --bsmall-indent: 24px;
+  --small_indent: 16px;
+  --ssmall_indent: 8px;
+  --smallest_indent: 4px;
+}

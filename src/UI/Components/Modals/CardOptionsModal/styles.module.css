@@ -1,0 +1,45 @@
+.wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.content {
+  width: 120px;
+  height: 115px;
+  position: absolute;
+  top: calc(100% + 10px);
+  display: flex;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.center {
+  right: -3.3rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 16px 26px;
+  background: #413068;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.option {
+  font-family: 'Inter', serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.035em;
+  color: #F9F6FF;
+  cursor: pointer;
+}

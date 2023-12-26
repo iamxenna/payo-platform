@@ -1,0 +1,24 @@
+.wrapper {
+  position: relative;
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.imgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.checkboxImgContainer {
+  border-radius: 999px;
+  background: var(--white_payo);
+  height: 26px;
+  width: 26px;
+}

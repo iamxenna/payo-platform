@@ -1,0 +1,49 @@
+.wrapper {
+  z-index: 5;
+}
+
+.content {
+  width: 528px;
+  position: absolute;
+  bottom: 2.4rem;
+  right: 0;
+  display: flex;
+  z-index: 3;
+}
+
+.closeModal {
+  position: absolute;
+  top: 3.4rem;
+  right: 7.6rem;
+  cursor: pointer;
+}
+
+.supportHead {
+  text-align: center;
+  margin-bottom: var(--small_indent);
+  font-family: 'Inter', serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.035em;
+  color: #000;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ssmall_indent);
+  margin-bottom: var(--small_indent);
+}
+
+.btn {
+  font-size: 16px;
+  padding: 12px 0;
+}
+
+.container {
+  background: linear-gradient(180deg, #F9F6FF -12.36%, #CACACC 141.31%);
+  padding: 50px 62px;
+  box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.59);
+  border-radius: 35px;
+}

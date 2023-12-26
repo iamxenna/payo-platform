@@ -1,0 +1,263 @@
+.wrapper {
+  margin: 5.2% 4.3% 0 8.5%;
+}
+
+.backBtn {
+  cursor: pointer;
+  width: 8px;
+  height: 20px;
+  margin-bottom: var(--smedium_indent);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+}
+
+.imgWrapper {
+  width: 50%;
+  height: 430px;
+  filter: drop-shadow(3px 4px 7px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.065em;
+  margin-bottom: var(--ssmall_indent);
+}
+
+.tagBlock {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  gap: 12px;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.descrBlock {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.priceTitle {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #2C2936;
+  margin-bottom: var(--ssmall_indent);
+}
+
+.price {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 138.52%;
+  letter-spacing: 0.035em;
+  color: var(--purple_payo);
+  margin-bottom: var(--ssmall_indent);
+}
+
+.stock {
+  font-family: 'Inter', serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.035em;
+  color: #2C2936;
+  margin-bottom: 17px;
+}
+
+.description {
+  width: 100%;
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 138.52%;
+  letter-spacing: 0.05em;
+  color: #2C2936;
+  overflow-x: hidden;
+}
+
+.btnWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: var(--ssmall_indent);
+}
+
+.btnContainer {
+  width: 162px;
+  height: 40px;
+}
+
+.moreBtn {
+  width: 44px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    margin: 8% 4.3% 0 4.3%;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.065em;
+    color: var(--black_payo);
+  }
+
+  .description {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 138.52%;
+    letter-spacing: 0.05em;
+    color: #2C2936;
+  }
+
+  .priceTitle {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.035em;
+    color: #2C2936;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 138.52%;
+    letter-spacing: 0.035em;
+    color: var(--purple_payo);
+  }
+
+  .container {
+    gap: 30px;
+  }
+
+  .imgWrapper {
+    width: 60%;
+  }
+
+  .stock {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.035em;
+    color: #2C2936;
+  }
+
+  .btnContainer {
+    width: 136px;
+    height: 33px;
+  }
+
+  .moreBtn {
+    width: 34px;
+    height: 33px;
+  }
+
+  .tagBlock {
+    gap: 6px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding: 39px 20px 200px 20px;
+    margin: 0;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .imgWrapper {
+    width: 100%;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.065em;
+    color: #100C1A;
+  }
+
+  .description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #2C2936;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .priceTitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.035em;
+    color: #2C2936;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 138.52%;
+    letter-spacing: 0.035em;
+    color: #413068;
+  }
+
+  .mobileHeader {
+    margin-bottom: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .shareItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .stock {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.035em;
+    color: #2C2936;
+  }
+}

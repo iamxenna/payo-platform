@@ -1,0 +1,396 @@
+.wrapper {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.purchaseContainer {
+  padding: 38px 53px;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.checkoutDataWrapper {
+  width: 100%;
+}
+
+.container {
+  background: linear-gradient(180deg, #F9F6FF -12.36%, #CACACC 141.31%);
+  border-radius: 35px;
+  max-width: 513px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unitInfo {
+  padding: 38px 53px 24px 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.border {
+  border-bottom: 1px solid #CACACC;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 138.52%;
+  letter-spacing: 0.035em;
+  color: #2C2936;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  margin-top: 34px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #100C1A;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #413068;
+}
+
+.stock {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #CACACC;
+}
+
+.img {
+  width: 168px;
+  height: 133px;
+  filter: drop-shadow(3px 4px 7px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.netCur {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.select {
+  width: 100% !important;
+}
+
+.email {
+  margin-top: 10px;
+}
+
+.comment {
+  margin-top: 8px;
+}
+
+.buyResult {
+  padding: 16px 54px 38px 54px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resultAmount {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2C2936;
+  margin-bottom: 5px;
+}
+
+.dropCurrency {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.resultValue {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413068;
+  margin-left: 8px;
+}
+
+.info {
+  margin: 0 0 16px 2px;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btnPay {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 138.52%;
+  letter-spacing: 0.035em;
+  color: #F9F6FF;
+  padding: 12px 32px;
+  max-width: 155px;
+}
+
+.purcHeading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.purcTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 138.52%;
+  letter-spacing: 0.035em;
+  color: #000;
+}
+
+.purcClose {
+  position: absolute;
+  right: 0;
+  top: 0.9rem;
+  cursor: pointer;
+}
+
+.purcImage {
+  display: flex;
+  justify-content: center;
+}
+
+.purcMessage {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 138.52%;
+  letter-spacing: 0.035em;
+  color: #000;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 41px;
+}
+
+.purcText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138.52%;
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: #000;
+}
+
+.purcBtnContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 152px;
+}
+
+.purcButton {
+  border: 1px solid #787580 !important;
+  filter: drop-shadow(3px 4px 7px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  width: 129px;
+  background: transparent !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138.52%;
+  letter-spacing: 0.035em;
+  color: #787580;
+  padding: 12px 0;
+}
+
+.minimumAmountTooltip {
+  top: 4rem !important;
+  right: 1.5rem !important;
+  width: 365px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .stock {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    color: #CACACC;
+  }
+
+  .img {
+    width: 230px;
+    height: 182px;
+  }
+
+  .resultAmount {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    color: #2C2936;
+  }
+
+  .btnPayWrapper {
+    width: 140px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .btnPay {
+    max-width: 100% !important;
+    font-size: 20px !important;
+    color: #FFF !important;
+  }
+
+  .resultValue {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #413068;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--purple_payo);
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--black_payo);
+  }
+
+  .header {
+    justify-content: initial;
+    gap: 40px;
+  }
+
+  .heading {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--black_payo);
+  }
+
+  .close {
+    display: flex;
+  }
+
+  .unitInfo {
+    padding: 70px 20px 0 20px;
+  }
+
+  .buyResult {
+    padding: 22px 20px 100px 20px;
+    align-items: flex-end;
+    gap: 30px;
+  }
+
+  .minimumAmountTooltip {
+    top: 4.1rem !important;
+    right: 3rem !important;
+    width: 230px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .name {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+
+  .stock {
+    font-size: 12px;
+  }
+
+  .resultValue {
+    font-size: 24px;
+  }
+
+  .img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .img {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .price {
+    font-size: 20px;
+  }
+
+  .resultValue {
+    font-size: 20px;
+  }
+
+  .buyResult {
+    gap: 15px;
+  }
+}

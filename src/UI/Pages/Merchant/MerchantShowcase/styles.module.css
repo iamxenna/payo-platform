@@ -1,0 +1,273 @@
+.wrapper {
+  padding: 67px 64px 0 64px;
+}
+
+.shareBtnContainer {
+  max-width: 148px;
+  width: 100%;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+}
+
+.btnBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--small_indent);
+}
+
+.btn {
+  padding: var(--ssmall_indent) var(--small_indent) !important;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.035em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bs {
+  border-radius: 7px;
+  box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.px {
+  width: 10.25rem;
+}
+
+.btnText {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.035em;
+}
+
+.text {
+  margin-left: 5px;
+}
+
+.plus {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  margin-right: var(--smallest_indent);
+}
+
+.createBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.btnContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sortContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.sort,
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter {
+  margin-left: 25px;
+}
+
+.textSort {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.035em;
+  margin-left: 9px;
+  color: var(--payo_black);
+}
+
+.arrow {
+  transform: rotateZ(90deg);
+  margin-left: var(--ssmall_indent);
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.archived {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.archivedTitle {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.035em;
+  color: #100C1A;
+}
+
+.eArrow {
+  position: absolute;
+  right: -7rem;
+  top: -3rem;
+}
+
+.emptyShowcase {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  right: 26.8rem;
+  top: 10rem;
+}
+
+.emptyTitle {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.035em;
+  color: #CACACC;
+}
+
+.merchantAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 99999px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: var(--bg-image);
+  background-color: #F9F6FF;
+}
+
+.merchantProfile {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 138.52%;
+  color: #413068;
+}
+
+@media screen and (max-width: 1600px) {
+  .cardContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .archived {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1224px) {
+  .wrapper {
+    padding: 67px 64px 0 64px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    padding: 50px 64px 0 64px;
+  }
+
+  .cardContainer {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wrapper {
+    padding: 50px 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sort {
+    border: 2px solid #413068;
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filter {
+    border: 2px solid #413068;
+    border-radius: 10px;
+    width: 86px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .archived {
+    margin: 0 0 0 25px;
+  }
+
+  .textSort {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.035em;
+    color: var(--black_payo);
+    margin: 0;
+  }
+
+  .cardContainer {
+    justify-content: center;
+    gap: 14px;
+    padding: 0;
+  }
+
+  .wrapper {
+    padding: 12px 20px 100px 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cardContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .head {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+}

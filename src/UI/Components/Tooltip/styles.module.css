@@ -1,0 +1,76 @@
+.wrapper {
+  position: relative;
+}
+
+.bottom {
+  top: 2.5rem;
+}
+
+.top {
+  bottom: 2.5rem;
+}
+
+.right {
+  right: -1rem;
+}
+
+.left {
+  left: -1rem;
+}
+
+.bottomTriangle {
+  top: -1rem;
+  transform: rotate(0deg);
+}
+
+.topTriangle {
+  bottom: -1rem;
+  transform: rotate(180deg);
+}
+
+.rightTriangle {
+  right: -0.3rem;
+}
+
+.leftTriangle {
+  left: -0.3rem;
+}
+
+.popupContainer {
+  position: absolute;
+  display: flex;
+  padding: 19px 23px;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 537px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #56545E;
+}
+
+.triangle {
+  position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+  .popupContainer {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popupContainer {
+    width: 220px;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #56545E;
+  }
+}

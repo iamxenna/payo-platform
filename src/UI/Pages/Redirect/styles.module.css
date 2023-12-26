@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  margin-top: 24px;
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.035em;
+  color: #100C1A;
+}
+
+.link {
+  margin-top: var(--small_indent);
+  text-align: center;
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.035em;
+  cursor: pointer;
+  color: #413068;
+}
+
+.opBtnClass {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.btn {
+  margin-top: var(--small_indent);
+  width: 128px;
+  height: 40px;
+}

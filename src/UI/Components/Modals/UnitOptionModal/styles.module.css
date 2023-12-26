@@ -1,0 +1,30 @@
+.itemsWrapper {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 0 15px;
+}
+
+.itemContainer {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemContainer:not(:last-child) {
+  border-bottom: 1px solid #CACACC;
+}
+
+.item {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.035em;
+  color: #413068;
+}
+
+.isRed {
+  color: #FF5A5A;
+}

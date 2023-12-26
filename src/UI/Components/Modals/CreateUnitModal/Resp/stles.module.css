@@ -1,0 +1,24 @@
+.createWrapper {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.item {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.035em;
+  color: #413068;
+}
+
+.itemContainer:not(:last-child) {
+  border-bottom: 1px solid #CACACC;
+}

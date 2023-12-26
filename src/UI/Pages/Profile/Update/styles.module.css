@@ -1,0 +1,483 @@
+.wrapper {
+  margin: 3.2% 4.3% 3.2% 8.5%;
+}
+
+.title {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 138.52%;
+  letter-spacing: 0.05em;
+  color: #000;
+}
+
+.fileInputContainer {
+  width: 50%;
+}
+
+.icon {
+  cursor: pointer;
+  width: 13px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 32px;
+}
+
+.accSettings {
+  display: flex;
+  flex-direction: column;
+  gap: var(--small_indent);
+  width: 237px;
+}
+
+.accountInputWrapper {
+  width: 100%;
+}
+
+.avatar {
+  width: 100%;
+  height: 237px;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.inputWrapper {
+  width: 100%;
+  /*max-width: 190px;*/
+}
+
+.mainInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  margin: 0 0 4px 2px;
+}
+
+.userNAvatar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--ssmall_indent);
+  margin-top: 15px;
+  margin-bottom: 13px;
+}
+
+.tNumber {
+  margin: 16px 0;
+}
+
+.userName {
+  width: 133%;
+}
+
+.addLinkContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--small_indent);
+  margin-top: 16px;
+}
+
+.addBtn {
+  width: 74px;
+  height: 43px;
+  padding: 13px 24px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.crypto {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 240px;
+}
+
+.snContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.snUnit {
+  background: #F2EFF9;
+  border-radius: 6px;
+  width: 121px;
+  height: 29px;
+  padding: 8px 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.snContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.snTitle {
+  text-transform: capitalize;
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #2C2936;
+}
+
+.dotsBlock {
+  width: 44px;
+  height: 40px;
+}
+
+.cancelBtn {
+  width: 118px;
+  border-radius: 5px;
+  background: #FF5A5A;
+  filter: drop-shadow(3px 4px 7px rgba(0, 0, 0, 0.25));
+  font-weight: 500;
+}
+
+.saveBtn {
+  width: 101px;
+  border-radius: 5px;
+  filter: drop-shadow(3px 4px 7px rgba(0, 0, 0, 0.25));
+  font-weight: 500;
+}
+
+.btnContainer {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 26px;
+}
+
+.walletContainer {
+  position: relative;
+}
+
+.extraWalletInput {
+  background-color: #F9F6FF !important;
+}
+
+.deleteWallet {
+  width: 30px;
+  height: 30px;
+  background: #FF5A5A;
+  border-radius: 6px;
+  position: absolute;
+  top: 1.9rem;
+  right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.link {
+  width: 12px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connectWalletBtn {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonContaier {
+  height: 44px;
+}
+
+.connectWalletTitle {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #2C2936;
+}
+
+.currncyBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.backArrow {
+  display: flex;
+}
+
+@media screen and (max-width: 1740px) {
+  .fileInputContainer {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    padding: 78px 20px 200px 20px;
+    margin: 0;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .btnHeadBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .settingsContainer {
+    width: 230px;
+    height: 51px;
+  }
+
+  .infoContainer {
+    width: 150px;
+    height: 51px;
+    border-radius: 15px;
+    box-shadow: none !important;
+  }
+
+  .bdActive {
+    border: 1px solid #787580;
+    background: none !important;
+    color: #787580 !important;
+  }
+
+  .bd {
+    height: 100% !important;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15px !important;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 138.52%;
+    letter-spacing: 0.035em;
+    color: #FFF;
+  }
+
+  .bl {
+    font-weight: 500;
+    font-size: 17.7013px;
+    line-height: 21px;
+    letter-spacing: 0.035em;
+    color: #FFF;
+  }
+
+  .btnBlock {
+    align-items: center;
+    gap: 35px;
+  }
+
+  .mmButton {
+    max-height: 100%;
+    width: 220px;
+  }
+
+  .btnWrapper {
+    border-radius: 15px !important;
+    height: 50px !important;
+    box-shadow: 6.35816px 8.47754px 14.8357px rgba(0, 0, 0, 0.25);
+  }
+
+  .leftContent {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .accSettings {
+    width: 100%;
+  }
+
+  .extraWalletInput {
+    background: #FFF !important;
+  }
+
+  .accountInputWrapper {
+    background: #FFF !important;
+  }
+
+  .deleteWallet {
+    width: 26px;
+    height: 26px;
+    top: 1.8rem;
+  }
+
+  .mainInfo {
+    width: 100%;
+  }
+
+  .addLinkContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+  }
+
+  .cancelBtn {
+    width: 240px;
+    height: 50px;
+    border: 1px solid #787580;
+    background: none;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 138.52%;
+    letter-spacing: 0.035em;
+    color: #787580;
+  }
+
+  .saveBtn {
+    width: 292px;
+    height: 50px;
+    background: #413068;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 138.52%;
+    letter-spacing: 0.035em;
+    color: #FFF;
+  }
+
+  .btnContainer {
+    margin-top: 80px;
+  }
+
+  .inputWrapper {
+    max-width: 100%;
+  }
+
+  .addBtn {
+    max-width: 365px;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 138.52%;
+    letter-spacing: 0.035em;
+    color: #FFF;
+  }
+
+  .userNAvatar {
+    gap: 30px;
+  }
+
+  .userName {
+    width: 90%;
+  }
+
+  .avatar {
+    margin: 20px auto;
+    width: 237px;
+    height: 237px;
+  }
+
+  .crypto {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding: 32px 20px 200px 20px;
+    margin: 0;
+  }
+
+  .userNAvatar {
+    gap: 5px;
+  }
+
+  .deleteWallet {
+    top: 2.6rem;
+  }
+
+  .userName {
+    width: 80%;
+  }
+
+  .crypto {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .settingsContainer {
+    width: 190px;
+  }
+
+  .head {
+    gap: 30px;
+  }
+
+  .infoContainer {
+    width: 110px;
+  }
+
+  .bd {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .settingsContainer {
+    width: 160px;
+  }
+
+  .infoContainer {
+    width: 90px;
+  }
+
+  .bd {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .settingsContainer {
+    width: 140px;
+  }
+
+  .infoContainer {
+    width: 80px;
+  }
+
+  .btnHeadBlock {
+    gap: 15px;
+  }
+
+  .bd {
+    font-size: 14px;
+  }
+}

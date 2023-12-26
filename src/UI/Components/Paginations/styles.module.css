@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.leftArrowContainer {
+  transform: rotateY(180deg);
+  margin-right: 12px;
+}
+
+.rightArrowContainer {
+  margin-left: 12px;
+}
+
+.paginationItem {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #2C2936;
+}
+
+.itemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.active {
+  background: #413068;
+  border-radius: 5px;
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.035em;
+  color: #F9F6FF;
+  padding: 3px 6px;
+}
